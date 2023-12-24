@@ -1,0 +1,73 @@
+h5{
+  color: #fff;
+}
+
+.gradient-background {
+  background: linear-gradient(90deg, #120397, #0c0050, #010242); /* Alterei o ângulo para 90deg */
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  border-radius: 50%;
+  height: 100px;
+}
+
+.logo {
+  top: 0;
+  right: 0;
+  margin-left: 30px; /* Ajuste conforme necessário para obter o espaçamento desejado */
+  height: 150px;
+}
+
+.white{
+  color: #fff;
+}
+
+.yellow{
+  color: #f7df1e;
+}
+
+.green{
+  color: #025702;
+}
+
+.custom-gray-background {
+  background-color: #f8f9fa; /* ou qualquer outra cor de cinza desejada */
+}
+
+
+@media (min-width: 301px) and (max-width: 414px){
+
+  .ong{
+    margin-left: 10px; /* Ajuste conforme necessário para obter o espaçamento desejado */
+  }
+}
+
+@media (min-width: 601px) and (max-width: 740px) {
+  .logo {
+    margin-left: 100px; /* Ajuste conforme necessário para obter o espaçamento desejado */
+  }
+
+  .ong{
+    margin-left: 10px; /* Ajuste conforme necessário para obter o espaçamento desejado */
+  }
+}
+
+
+@media (min-width: 801px) and (max-width: 915px) {
+  .logo {
+    margin-left: 200px; /* Ajuste conforme necessário para obter o espaçamento desejado */
+  }
+
+  .ong{
+    margin-top: -10; /* Ajuste conforme necessário para obter o espaçamento desejado */
+  }
+}
